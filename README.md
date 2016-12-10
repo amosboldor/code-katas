@@ -52,3 +52,15 @@ def digitize(n):
 ```
 
 --------------------
+**Opposite Number**
+- **Module:** opposite_number.py
+- **Tests:** test_opposite_number.py
+- **Link:** [https://www.codewars.com/kata/opposite-number/python](https://www.codewars.com/kata/opposite-number/python)
+
+**Interesting Solution:**
+```
+def opposite(number):
+    return -number
+```
+
+--------------------
