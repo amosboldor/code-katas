@@ -21,7 +21,8 @@ setup(
         "jennys_secret_message",
         "needle_in_the_haystack",
         "sum_without_high_and_low",
-        "grasshopper_summation"
+        "grasshopper_summation",
+        "count_the_monkeys"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]

@@ -127,3 +127,15 @@ def summation(num):
 ```
 
 --------------------
+**Count the Monkeys!**
+- **Module:** count_the_monkeys.py
+- **Tests:** test_count_the_monkeys.py
+- **Link:** [https://www.codewars.com/kata/count-the-monkeys/train/python](https://www.codewars.com/kata/count-the-monkeys/train/python)
+
+**Interesting Solution:**
+```
+def monkey_count(n):
+    return [i+1 for i in range(n)]
+```
+
+--------------------
