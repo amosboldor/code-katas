@@ -22,7 +22,8 @@ setup(
         "needle_in_the_haystack",
         "sum_without_high_and_low",
         "grasshopper_summation",
-        "count_the_monkeys"
+        "count_the_monkeys",
+        "count_positives_sum_negatives"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]

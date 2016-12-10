@@ -139,3 +139,15 @@ def monkey_count(n):
 ```
 
 --------------------
+**Count of Positives / Sum of Negatives**
+- **Module:** count_positives_sum_negatives.py
+- **Tests:** test_count_positives_sum_negatives.py
+- **Link:** [https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives/train/python](https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives/train/python)
+
+**Interesting Solution:**
+```
+def count_positives_sum_negatives(arr):
+    return [len([x for x in arr if x > 0])] + [sum(y for y in arr if y < 0)] if arr else []
+```
+
+--------------------
