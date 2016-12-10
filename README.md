@@ -101,3 +101,17 @@ def find_needle(haystack): return 'found the needle at position %d' % haystack.i
 ```
 
 --------------------
+**Sum Without Highest and Lowest Number**
+- **Module:** sum_without_high_and_low.py
+- **Tests:** test_sum_without_high_and_low.py
+- **Link:** [https://www.codewars.com/kata/sum-without-highest-and-lowest-number/python](https://www.codewars.com/kata/sum-without-highest-and-lowest-number/python)
+
+**Interesting Solution:**
+```
+def sum_array(arr):
+    if arr == None or len(arr) < 3:
+        return 0
+    return sum(arr) - max(arr) - min(arr)
+```
+
+--------------------

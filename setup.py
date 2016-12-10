@@ -19,7 +19,8 @@ setup(
         "opposite_number",
         "counting_sheep",
         "jennys_secret_message",
-        "needle_in_the_haystack"
+        "needle_in_the_haystack",
+        "sum_without_high_and_low"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]
