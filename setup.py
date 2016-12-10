@@ -18,7 +18,8 @@ setup(
         "reversed_list_of_digits",
         "opposite_number",
         "counting_sheep",
-        "jennys_secret_message"
+        "jennys_secret_message",
+        "needle_in_the_haystack"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]

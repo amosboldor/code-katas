@@ -90,3 +90,14 @@ def greet(name):
 ```
 
 --------------------
+**A Needle in the Haystack**
+- **Module:** needle_in_the_haystack.py
+- **Tests:** test_needle_in_the_haystack.py
+- **Link:** [https://www.codewars.com/kata/a-needle-in-the-haystack/train/python](https://www.codewars.com/kata/a-needle-in-the-haystack/train/python)
+
+**Interesting Solution:**
+```
+def find_needle(haystack): return 'found the needle at position %d' % haystack.index('needle')
+```
+
+--------------------
