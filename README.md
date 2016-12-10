@@ -151,3 +151,15 @@ def count_positives_sum_negatives(arr):
 ```
 
 --------------------
+**Square(n) Sum**
+- **Module:** squared_sum.py
+- **Tests:** test_squared_sum.py
+- **Link:** [https://www.codewars.com/kata/square-n-sum/train/python](https://www.codewars.com/kata/square-n-sum/train/python)
+
+**Interesting Solution:**
+```
+def square_sum(numbers):
+    return sum(x ** 2 for x in numbers)
+```
+
+--------------------
