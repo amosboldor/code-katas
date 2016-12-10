@@ -25,7 +25,8 @@ setup(
         "count_the_monkeys",
         "count_positives_sum_negatives",
         "squared_sum",
-        "bool_to_yes_or_no"
+        "bool_to_yes_or_no",
+        "alternating_case"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]

@@ -174,3 +174,15 @@ bool_to_word = lambda b: b and "Yes" or "No"
 ```
 
 --------------------
+**altERnaTIng cAsE <=> ALTerNAtiNG CaSe**
+- **Module:** alternating_case.py
+- **Tests:** test_alternating_case.py
+- **Link:** [https://www.codewars.com/kata/alternating-case-<-equals->-alternating-case/train/python](https://www.codewars.com/kata/alternating-case-<-equals->-alternating-case/train/python)
+
+**Interesting Solution:**
+```
+def to_alternating_case(string):
+    return ''.join([c.upper() if c.islower() else c.lower() for c in string])
+```
+
+--------------------
