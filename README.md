@@ -163,3 +163,14 @@ def square_sum(numbers):
 ```
 
 --------------------
+**Convert boolean values to strings 'Yes' or 'No'.**
+- **Module:** bool_to_yes_or_no.py
+- **Tests:** test_bool_to_yes_or_no.py
+- **Link:** [https://www.codewars.com/kata/convert-boolean-values-to-strings-yes-or-no/train/python](https://www.codewars.com/kata/convert-boolean-values-to-strings-yes-or-no/train/python)
+
+**Interesting Solution:**
+```
+bool_to_word = lambda b: b and "Yes" or "No"
+```
+
+--------------------

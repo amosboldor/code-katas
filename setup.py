@@ -24,7 +24,8 @@ setup(
         "grasshopper_summation",
         "count_the_monkeys",
         "count_positives_sum_negatives",
-        "squared_sum"
+        "squared_sum",
+        "bool_to_yes_or_no"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]
