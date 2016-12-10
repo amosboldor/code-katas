@@ -40,3 +40,15 @@ def positive_sum(arr):
 ```
 
 --------------------
+**Convert Number to Reversed Array of Digits**
+- **Module:** reversed_list_of_digits.py
+- **Tests:** test_reversed_list_of_digits.py
+- **Link:** [https://www.codewars.com/kata/convert-number-to-reversed-array-of-digits/python](https://www.codewars.com/kata/convert-number-to-reversed-array-of-digits/python)
+
+**Interesting Solution:**
+```
+def digitize(n):
+    return map(int, str(n)[::-1])
+```
+
+--------------------
