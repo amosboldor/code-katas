@@ -17,7 +17,8 @@ setup(
         "sum_of_positive",
         "reversed_list_of_digits",
         "opposite_number",
-        "counting_sheep"
+        "counting_sheep",
+        "jennys_secret_message"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]

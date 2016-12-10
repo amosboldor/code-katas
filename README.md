@@ -76,3 +76,17 @@ def count_sheeps(arrayOfSheeps):
 ```
 
 --------------------
+**Jenny's Secret Message**
+- **Module:** jennys_secret_message.py
+- **Tests:** test_jennys_secret_message.py
+- **Link:** [https://www.codewars.com/kata/jennys-secret-message/python](https://www.codewars.com/kata/jennys-secret-message/python)
+
+**Interesting Solution:**
+```
+def greet(name):
+    if name == "Johnny":
+        return "Hello, my love!"
+    return "Hello, {name}!".format(name=name)
+```
+
+--------------------
