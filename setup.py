@@ -20,7 +20,8 @@ setup(
         "counting_sheep",
         "jennys_secret_message",
         "needle_in_the_haystack",
-        "sum_without_high_and_low"
+        "sum_without_high_and_low",
+        "grasshopper_summation"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]

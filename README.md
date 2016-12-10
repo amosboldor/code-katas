@@ -115,3 +115,15 @@ def sum_array(arr):
 ```
 
 --------------------
+**Grasshopper - Summation**
+- **Module:** grasshopper_summation.py
+- **Tests:** test_grasshopper_summation.py
+- **Link:** [https://www.codewars.com/kata/grasshopper-summation/train/python](https://www.codewars.com/kata/grasshopper-summation/train/python)
+
+**Interesting Solution:**
+```
+def summation(num):
+    return (1+num) * num / 2
+```
+
+--------------------
