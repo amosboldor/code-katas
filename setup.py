@@ -26,7 +26,8 @@ setup(
         "count_positives_sum_negatives",
         "squared_sum",
         "bool_to_yes_or_no",
-        "alternating_case"
+        "alternating_case",
+        "are_you_playing_the_banjo"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]

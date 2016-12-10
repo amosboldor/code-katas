@@ -1,6 +1,29 @@
 Code-Katas
 ----------
 
+ 1. Clone Repo ```git clone https://github.com/amosboldor/code-katas.git```
+ 2. Create Virtual Enviroment ```python3 -m venv ENV```
+ 3. Activate Envirment ```source ENV/bin/activate```
+ 3. Install Testing Dependencies ```pip install -e .[test]```
+ 4. Run ```tox``` to run all tests
+ 5. Or run ```tox -e module_name``` Options:
+    6. double_char
+    6. even_or_odd
+    6. sum_of_positive
+    6. reversed_list_of_digits
+    6. opposite_number
+    6. counting_sheep
+    6. jennys_secret_message
+    6. needle_in_the_haystack
+    6. sum_without_high_and_low
+    6. grasshopper_summation
+    6. count_the_monkeys
+    6. count_positives_sum_negatives
+    6. squared_sum
+    6. bool_to_yes_or_no
+    6. alternating_case
+    6. are_you_playing_the_banjo
+
 --------------------
 **Double Char**
 - **Module:** double_char.py
@@ -183,6 +206,18 @@ bool_to_word = lambda b: b and "Yes" or "No"
 ```
 def to_alternating_case(string):
     return ''.join([c.upper() if c.islower() else c.lower() for c in string])
+```
+
+--------------------
+**Are You Playing Banjo?**
+- **Module:** are_you_playing_the_banjo.py
+- **Tests:** test_are_you_playing_the_banjo.py
+- **Link:** [https://www.codewars.com/kata/are-you-playing-banjo/train/python](https://www.codewars.com/kata/are-you-playing-banjo/train/python)
+
+**Interesting Solution:**
+```
+def areYouPlayingBanjo(name):
+    return name + (' plays' if name[0].lower() == 'r' else ' does not play') + " banjo";
 ```
 
 --------------------
