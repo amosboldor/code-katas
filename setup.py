@@ -16,7 +16,8 @@ setup(
         "even_or_odd",
         "sum_of_positive",
         "reversed_list_of_digits",
-        "opposite_number"
+        "opposite_number",
+        "counting_sheep"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]

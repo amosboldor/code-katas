@@ -64,3 +64,15 @@ def opposite(number):
 ```
 
 --------------------
+**Counting Sheep**
+- **Module:** counting_sheep.py
+- **Tests:** test_counting_sheep.py
+- **Link:** [https://www.codewars.com/kata/counting-sheep-dot-dot-dot/python](https://www.codewars.com/kata/counting-sheep-dot-dot-dot/python)
+
+**Interesting Solution:**
+```
+def count_sheeps(arrayOfSheeps):
+    return arrayOfSheeps.count(True)
+```
+
+--------------------
