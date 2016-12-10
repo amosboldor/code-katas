@@ -1,4 +1,4 @@
-"""16 KATAS at the 8th KYU."""
+"""Kata double_char."""
 
 
 def double_char(s):
