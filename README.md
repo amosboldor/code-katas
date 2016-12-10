@@ -1,5 +1,6 @@
 Code-Katas
 ----------
+PYTHON 2/3-COMPATIBLE
 
  1. Clone Repo ```git clone https://github.com/amosboldor/code-katas.git```
  2. Create Virtual Enviroment ```python3 -m venv ENV```
