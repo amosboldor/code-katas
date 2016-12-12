@@ -8,22 +8,23 @@ PYTHON 2/3-COMPATIBLE
  3. Install Testing Dependencies ```pip install -e .[test]```
  4. Run ```tox``` to run all tests
  5. Or run ```tox -e module_name``` Options:
-    6. double_char
-    6. even_or_odd
-    6. sum_of_positive
-    6. reversed_list_of_digits
-    6. opposite_number
-    6. counting_sheep
-    6. jennys_secret_message
-    6. needle_in_the_haystack
-    6. sum_without_high_and_low
-    6. grasshopper_summation
-    6. count_the_monkeys
-    6. count_positives_sum_negatives
-    6. squared_sum
-    6. bool_to_yes_or_no
-    6. alternating_case
-    6. are_you_playing_the_banjo
+   * double_char
+   * even_or_odd
+   * sum_of_positive
+   * reversed_list_of_digits
+   * opposite_number
+   * counting_sheep
+   * jennys_secret_message
+   * needle_in_the_haystack
+   * sum_without_high_and_low
+   * grasshopper_summation
+   * count_the_monkeys
+   * count_positives_sum_negatives
+   * squared_sum
+   * bool_to_yes_or_no
+   * alternating_case
+   * are_you_playing_the_banjo
+   * sum_nth_term_series
 
 --------------------
 **Double Char**
@@ -219,6 +220,18 @@ def to_alternating_case(string):
 ```
 def areYouPlayingBanjo(name):
     return name + (' plays' if name[0].lower() == 'r' else ' does not play') + " banjo";
+```
+
+--------------------
+**Sum of the First nth Term of Series**
+- **Module:** sum_nth_term_series.py
+- **Tests:** test_sum_nth_term_series.py
+- **Link:** [http://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/train/python](http://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/train/python)
+
+**Interesting Solution:**
+```
+def series_sum(n):
+    return '{:.2f}'.format(sum(1.0/(3 * i + 1) for i in range(n)))
 ```
 
 --------------------

@@ -27,7 +27,8 @@ setup(
         "squared_sum",
         "bool_to_yes_or_no",
         "alternating_case",
-        "are_you_playing_the_banjo"
+        "are_you_playing_the_banjo",
+        "sum_nth_term_series"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]
