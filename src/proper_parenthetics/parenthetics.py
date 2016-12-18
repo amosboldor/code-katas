@@ -1,4 +1,4 @@
-"""Program that checks string for Proper Parenthetics."""
+"""Module that checks strings for Proper Parenthetics."""
 
 
 def proper_parenthetics(string):

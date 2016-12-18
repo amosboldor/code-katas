@@ -1,4 +1,4 @@
-"""Test proper parenthetics."""
+"""Test proper parenthetics module."""
 
 import pytest
 
@@ -17,8 +17,8 @@ TEXT_WITH_PARENS = [
 ]
 
 
-@pytest.mark.parametrize("parens, result", TEXT_WITH_PARENS)
-def test_proper_parens(parens, result):
-    """Test proper parens returns correct result for given cases."""
+@pytest.mark.parametrize("text, result", TEXT_WITH_PARENS)
+def test_proper_parenthetics(text, result):
+    """Test proper_parenthetics returns correct result for given text."""
     from parenthetics import proper_parenthetics
-    assert proper_parenthetics(parens) == result
+    assert proper_parenthetics(text) == result
