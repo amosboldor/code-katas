@@ -28,7 +28,8 @@ setup(
         "bool_to_yes_or_no",
         "alternating_case",
         "are_you_playing_the_banjo",
-        "sum_nth_term_series"
+        "sum_nth_term_series",
+        "parenthetics"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]
