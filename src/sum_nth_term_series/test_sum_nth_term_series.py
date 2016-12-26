@@ -23,3 +23,9 @@ def test_series_sum4():
     """Test if return the sum of following series upto nth term(parameter)."""
     from sum_nth_term_series import series_sum
     assert series_sum(3) == "1.39"
+
+
+def test_series_sum0():
+    """Test if return the sum of following series upto nth term(parameter)."""
+    from sum_nth_term_series import series_sum
+    assert series_sum(0) == "0.00"
