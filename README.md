@@ -27,6 +27,15 @@ PYTHON 2/3-COMPATIBLE
    * sum_nth_term_series
 
 --------------------
+**Proper Parenthetics**
+- **Module:** parenthetics.py
+- **Tests:** test_parenthetics.py
+- **Link:** [https://codefellows.github.io/sea-python-401d5/assignments/proper_parenthetics.html](https://codefellows.github.io/sea-python-401d5/assignments/proper_parenthetics.html)
+
+I used my stack module from data-structures to get this work.
+Link to data-structures: https://github.com/amosboldor/data-structures
+
+--------------------
 **Double Char**
 - **Module:** double_char.py
 - **Tests:** test_double_char.py
