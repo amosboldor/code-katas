@@ -11,6 +11,6 @@ DECKS = [
 
 @pytest.mark.parametrize('unsorted, sorted', DECKS)
 def test_sort_deck_of_cards(unsorted, sorted):
-    """Test that function sorts cards."""
+    """Test that function sorts cards sorts correctly."""
     from sort_deck_of_cards import sort_cards
     assert sort_cards(unsorted) == sorted

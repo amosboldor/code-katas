@@ -25,6 +25,7 @@ PYTHON 2/3-COMPATIBLE
    * alternating_case
    * are_you_playing_the_banjo
    * sum_nth_term_series
+   * sort_deck_of_cards
 
 --------------------
 **Proper Parenthetics**
@@ -241,6 +242,18 @@ def areYouPlayingBanjo(name):
 ```
 def series_sum(n):
     return '{:.2f}'.format(sum(1.0/(3 * i + 1) for i in range(n)))
+```
+
+--------------------
+**Sort deck of cards**
+- **Module:** sort_deck_of_cards.py
+- **Tests:** test_sort_deck_of_cards.py
+- **Link:** [https://www.codewars.com/kata/sort-deck-of-cards/train/python](https://www.codewars.com/kata/sort-deck-of-cards/train/python)
+
+**Interesting Solution:**
+```
+def sort_cards(cards):
+    return sorted(cards, key="A23456789TJQK".index)
 ```
 
 --------------------

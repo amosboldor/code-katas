@@ -1,4 +1,4 @@
-"""A."""
+"""Kata Sort deck of cards."""
 
 
 def sort_cards(cards):
