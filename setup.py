@@ -29,7 +29,8 @@ setup(
         "alternating_case",
         "are_you_playing_the_banjo",
         "sum_nth_term_series",
-        "parenthetics"
+        "parenthetics",
+        "sort_deck_of_cards"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]
