@@ -30,7 +30,8 @@ setup(
         "are_you_playing_the_banjo",
         "sum_nth_term_series",
         "parenthetics",
-        "sort_deck_of_cards"
+        "sort_deck_of_cards",
+        "forbes"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]

@@ -26,6 +26,7 @@ PYTHON 2/3-COMPATIBLE
    * are_you_playing_the_banjo
    * sum_nth_term_series
    * sort_deck_of_cards
+   * forbes
 
 --------------------
 **Proper Parenthetics**
@@ -257,3 +258,12 @@ def sort_cards(cards):
 ```
 
 --------------------
+**The Forbes Top 40**
+
+- **Module:** forbes.py
+- **Tests:** test_forbes.py
+- **Link:** [https://codefellows.github.io/sea-python-401d5/assignments/kata_forbes_billionaires.html](https://codefellows.github.io/sea-python-401d5/assignments/kata_forbes_billionaires.html)
+
+**Interesting Solution:**
+
+None what so ever, mine rules.
