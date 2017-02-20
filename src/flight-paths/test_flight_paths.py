@@ -41,3 +41,9 @@ def test_bad_end_city():
     """Test bad end city."""
     with pytest.raises(ValueError):
         flight_path('Seattle', 'dole')
+
+
+def test_distance_is_correct():
+    """Test distance is correct."""
+    data = flight_path('Seattle', 'New York City')
+    assert data["distance"] == 2406.3098443680474
