@@ -2,6 +2,7 @@
 
 from flight_paths import read_format_and_return
 from flight_paths import flight_path
+import pytest
 
 
 def test_read_format_and_return():
@@ -28,3 +29,15 @@ def test_flight_path_returns_right_cities_seattle_dinard():
     data = flight_path('Seattle', 'Dinard')
     path = ['Seattle', 'Vancouver', 'Dublin', 'East Midlands', 'Dinard']
     assert path == data["path"]
+
+
+def test_bad_start_city():
+    """Test bad start city."""
+    with pytest.raises(ValueError):
+        flight_path('bob', 'Seattle')
+
+
+def test_bad_end_city():
+    """Test bad end city."""
+    with pytest.raises(ValueError):
+        flight_path('Seattle', 'dole')
