@@ -11,6 +11,7 @@ setup(
     author_email=["amosboldor@gmail.com"],
     licencse="MIT",
     package_dir={'': 'src'},
+    install_requires=['networkx==1.11'],
     py_modules=[
         "double_char",
         "even_or_odd",
@@ -31,7 +32,8 @@ setup(
         "sum_nth_term_series",
         "parenthetics",
         "sort_deck_of_cards",
-        "forbes"
+        "forbes",
+        "flight_path"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov", "tox"]

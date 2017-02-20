@@ -27,6 +27,7 @@ PYTHON 2/3-COMPATIBLE
    * sum_nth_term_series
    * sort_deck_of_cards
    * forbes
+   * flight_paths
 
 --------------------
 **Proper Parenthetics**
@@ -267,3 +268,10 @@ def sort_cards(cards):
 **Interesting Solution:**
 
 None what so ever, mine rules.
+
+--------------------
+**Flight Paths**
+
+- **Module:** flight_paths.py
+- **Tests:** test_flight_paths.py
+- **Link:** [https://codefellows.github.io/sea-python-401d5/assignments/kata_flight_paths.html](https://codefellows.github.io/sea-python-401d5/assignments/kata_flight_paths.html)
